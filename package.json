@@ -1,0 +1,33 @@
+{
+  "name": "wecare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js",
+  "build": "cd client && npm install && npm run build"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike388-sketch/wecare.org.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mike388-sketch/wecare.org/issues"
+  },
+  "homepage": "https://github.com/mike388-sketch/wecare.org#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
